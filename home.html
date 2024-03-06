@@ -1,0 +1,188 @@
+<link rel="stylesheet" href="mycss.css">
+<script src="https://kit.fontawesome.com/b360405e70.js" crossorigin="anonymous"></script>
+
+<div id="body-1">
+
+        <div class="container">
+          <div class="row" id="imgkm" ng-controller="myctrl">
+              <div class="col-sm-6 col-md-3  center-image" ng-repeat="x in data | limitTo:4:0">
+                  <img ng-src="{{x.img}}" alt="">
+              </div>  
+          </div>
+          <div class="row" id="text-1b">       
+            <p class="text-primary" id="text-1a"><i class="bi bi-send text-primary"></i> Bay muôn nơi!</p>
+          </div>
+          
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Bay tết</button>
+              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Bay nội địa</button>
+              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Quốc tế</button>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent" ng-controller="myctrl">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+              <div class="owl-carousel owl-theme" >
+                <div class="item" ng-repeat="x in data | limitTo:6:4"><img ng-src="{{x.img}}" alt=""></div>
+            </div>
+        </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+              <div class="owl-carousel owl-theme">
+                <div class="item" ng-repeat="x in data | limitTo:6:4"><img ng-src="{{x.img}}" alt=""></div>
+            </div>
+          </div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+              <div class="owl-carousel owl-theme">
+                <div class="item" ng-repeat="x in data | limitTo:6:11"><img ng-src="{{x.img}}" alt=""></div>
+            </div></div>
+          </div>
+          <div>
+            <button type="button" class="btn btn-primary" id="btn-fly">Tìm chuyến bay <i class="bi bi-chevron-double-right"></i></button>
+          </div>
+
+           <!-- KS -->
+           <div class="row" id="text-1b">       
+            <p class="text-primary" id="text-1a"><i class="bi bi-house-door text-primary"></i> Khách sạn!</p>
+          </div>
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-home-tab1" data-bs-toggle="tab" data-bs-target="#nav-home1" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Nội địa</button>
+              <button class="nav-link" id="nav-contact-tab1" data-bs-toggle="tab" data-bs-target="#nav-contact1" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Quốc tế</button>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent" ng-controller="myctrl">
+            <div class="tab-pane fade show active" id="nav-home1" role="tabpanel" aria-labelledby="nav-home-tab1" tabindex="0">
+              <div class="owl-carousel owl-theme">
+                <div class="item" ng-repeat="x in data | limitTo:8:18"><img ng-src="{{x.img}}" alt=""></div>
+            </div></div>
+            <div class="tab-pane fade" id="nav-contact1" role="tabpanel" aria-labelledby="nav-contact-tab1" tabindex="0">
+              <div class="owl-carousel owl-theme" ng-controller="myctrl">
+                <div class="item" ng-repeat="x in data | limitTo:8:26"><img ng-src="{{x.img}}" alt=""></div>
+            </div>
+          </div>
+          </div>
+          <div>
+            <button type="button" class="btn btn-primary" id="btn-fly">Tìm Khách sạn <i class="bi bi-chevron-double-right"></i></button>
+          </div>
+          <!--Tour-->
+          <div class="row" id="text-1b">       
+            <p class="text-primary" id="text-1a"><i class="bi bi-send-check"></i> Vui cùng ưu đãi</p>
+          </div>
+          
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-home-tab2" data-bs-toggle="tab" data-bs-target="#nav-home2" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Đà Nẵng - Hội An</button>
+              <button class="nav-link" id="nav-contact-tab2" data-bs-toggle="tab" data-bs-target="#nav-contact2" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Nha Trang - Phú Quốc</button>
+              <button class="nav-link" id="nav-contact-tab3" data-bs-toggle="tab" data-bs-target="#nav-contact3" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Sài Gòn - Lân cận</button>
+              <button class="nav-link" id="nav-contact-tab4" data-bs-toggle="tab" data-bs-target="#nav-contact4" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Miền Bắc</button>
+              <button class="nav-link" id="nav-contact-tab5" data-bs-toggle="tab" data-bs-target="#nav-contact5" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Quốc tế</button>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent" >
+            <div class="tab-pane fade show active" id="nav-home2" role="tabpanel" aria-labelledby="nav-home-tab2" tabindex="0" ng-controller="pro-ctrl">
+                <div class="owl-carousel owl-theme">
+                  <div class="item center-image" ng-repeat="pro in data | filter : 'DN-HA' : true | filter: search">
+                    <div class="card" style="width: 14rem;">
+                    <img ng-src="{{pro.img}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">{{pro.title}}</h5>
+                      <p class="card-text">Giá: {{pro.price | number}}</p>
+                      <a href="#!detail/{{pro.id}}" class="btn btn-primary">Xem chi tiết</a>
+                      <button class="btn btn-warning" style="margin-top: 10px;" ng-click="addCart(pro)"><i class="fa-solid fa-cart-plus"></i>Thêm vào giỏ hàng</button>
+                        </div>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav-contact2" role="tabpanel" aria-labelledby="nav-contact-tab2" tabindex="0" ng-controller="pro-ctrl">
+              <div class="owl-carousel owl-theme">
+                <div class="item center-image" ng-repeat="pro in data  | filter : 'NT-PQ' : true">
+                  <div class="card" style="width: 14rem;">
+                    <img ng-src="{{pro.img}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">{{pro.title}}</h5>
+                      <p class="card-text">Giá: {{pro.price | number}}</p>
+                      <a href="#!detail/{{pro.id}}" class="btn btn-primary">Xem chi tiết</a>
+                      <button class="btn btn-warning" style="margin-top: 10px;" ng-click="addCart(pro)"><i class="fa-solid fa-cart-plus"></i>Thêm vào giỏ hàng</button>
+                        </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+          <div class="tab-pane fade" id="nav-contact3" role="tabpanel" aria-labelledby="nav-contact-tab2" tabindex="0" ng-controller="pro-ctrl">
+            <div class="owl-carousel owl-theme">
+              <div class="item center-image" ng-repeat="pro in data | filter : 'SG-N' : true">
+                <div class="card" style="width: 14rem;">
+                <img ng-src="{{pro.img}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">{{pro.title}}</h5>
+                  <p class="card-text">Giá: {{pro.price | number}}</p>
+                  <a href="#!detail/{{pro.id}}" class="btn btn-primary">Xem chi tiết</a>
+              <button class="btn btn-warning" style="margin-top: 10px;" ng-click="addCart(pro)"><i class="fa-solid fa-cart-plus"></i>Thêm vào giỏ hàng</button>
+                  </div>
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-contact4" role="tabpanel" aria-labelledby="nav-contact-tab2" tabindex="0" ng-controller="pro-ctrl">
+              <div class="owl-carousel owl-theme">
+                <div class="item center-image" ng-repeat="pro in data | filter : 'MB' : true">
+                  <div class="card" style="width: 14rem;">
+                  <img ng-src="{{pro.img}}" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">{{pro.title}}</h5>
+                    <p class="card-text">Giá: {{pro.price | number}}</p>
+                    <a href="#!detail/{{pro.id}}" class="btn btn-primary">Xem chi tiết</a>
+                  <button class="btn btn-warning" style="margin-top: 10px;" ng-click="addCart(pro)"><i class="fa-solid fa-cart-plus"></i>Thêm vào giỏ hàng</button>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+          <div class="tab-pane fade" id="nav-contact5" role="tabpanel" aria-labelledby="nav-contact-tab2" tabindex="0" ng-controller="pro-ctrl">
+              <div class="owl-carousel owl-theme">
+                <div class="item center-image" ng-repeat="pro in data | filter : 'QT' : true">
+                  <div class="card" style="width: 14rem;">
+                  <img ng-src="{{pro.img}}" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">{{pro.title}}</h5>
+                    <p class="card-text">Giá: {{pro.price | number}}</p>
+                    <a href="#!detail/{{pro.id}}" class="btn btn-primary">Xem chi tiết</a>
+                  <button class="btn btn-warning" style="margin-top: 10px;" ng-click="addCart(pro)"><i class="fa-solid fa-cart-plus"></i>Thêm vào giỏ hàng</button>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+          <div>
+            <a href="#!more" class="btn btn-primary mt-4 mb-4">Xem thêm <i class="bi bi-chevron-double-right"></i></a>
+          </div>
+      </div>  
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+    <script>
+      $(document).ready(function() {
+  setTimeout(function() {
+    $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:true,
+      responsive:{
+        0:{
+          items:1
+        },
+        600:{
+          items:3
+        },
+        1000:{
+          items:5
+        }
+      }
+    });
+  }, 400);
+});
+     </script>

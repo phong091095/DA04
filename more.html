@@ -1,0 +1,28 @@
+
+<div class="row" id="body-1" style="padding: 50px;" >
+    <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" ng-model="search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+        <select style="margin-left: 5px; border-radius: 5px;" ng-model="sort" ng-change="sortProducts()">
+            <option value="">Sắp xếp</option>
+            <option value="giam">Giá giảm dần</option>
+            <option value="tang">Giá tăng dần</option>
+        </select>
+        
+    </form>
+    <div class="item center-image col-sm-6 col-md-3 mt-4" ng-repeat="pro in data | filter : search | limitTo: 4:start">
+        <div class="card" style="width: 14rem;">
+            <img ng-src="{{pro.img}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{pro.title}}</h5>
+              <p class="card-text">Giá: {{pro.price | number}}</p>
+              <a href="#!detail/{{pro.id}}" class="btn btn-primary">Xem chi tiết</a>
+            <button class="btn btn-warning" style="margin-top: 10px;" ng-click="addCart(detailPro)"><i class="fa-solid fa-cart-plus"></i>Thêm vào giỏ hàng</button>
+</div>
+        </div>
+    </div>
+    <div class="text-center mt-4">
+        <i class="fa-solid fa-arrow-left" style="color: #74C0FC;" ng-click="trangtruoc()"></i>
+        <i class="fa-solid fa-arrow-right" style="color: #74C0FC;" ng-click="trangsau()"></i>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+  <div class="container" ng-app1="myapp1">
+      <div class="row col-8" id="ds-login"> 
+          <div class="col-4" id="col-4-login">
+              <h2>Đăng nhập</h2>
+              <hr>
+              <button type="submit" class="fb"><i class="bi bi-facebook"></i> Facebook</button>
+              <button type="submit" class="gg"><i class="bi bi-google"></i> Google</button>
+          </div>
+          <div class="col-8" id="col-8-login" ng-controller1="myctrl1">
+              <div id="inside">
+                <form action="" name="loginform">
+                  <input type="text" name="inputName" ng-model="fullname" placeholder="Email / Số điện thoại di động" required><br>
+                  <span ng-hide="loginform.inputName.$valid">Tên đăng nhập không hợp lệ</span><br>
+                  <input type="text" name="password" ng-model="password" placeholder="Mật khẩu" required><br>
+                  <span ng-hide="loginform.password.$valid">Mật khẩu không hợp lệ</span>
+                  <a href="#" class="fg-pw">Quên mật khẩu?</a>
+                  <button type="submit" class="dn-button"><i class="bi bi-person"></i> Đăng nhập</button>   
+                  <button type="submit" class="dk-button"><a href="#!register" style="text-decoration: none; color: black;">Đăng ký</a></button>    
+                </form>
+                </div>
+          </div> 
+      </div>
+  
+  </div>
+

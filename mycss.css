@@ -1,0 +1,265 @@
+
+img#background{
+  width: 100%; 
+  height: 850px; 
+  max-width: 100%; 
+  display: block;
+}
+nav#nav-top{
+z-index: 1;
+background: rgba(255, 255, 255, 0.5);
+position: absolute;
+width: 100%;
+}
+div#navbarSupportedContent ul li a{
+    font-weight: bold;
+}
+form.d-flex button{
+    width: 200px;
+    margin-left: 10px;
+}
+#imgkm img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#body-1{
+    z-index: 1;
+    background-color: aliceblue;
+    border-radius: 50px 50px 0 0;
+    margin-top: -200px;
+}
+  .append-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+  }
+p#text-1a{
+  font-weight: bold;
+  font-size:x-large;
+}
+#text-1b{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+footer{
+  background-color: rgb(58, 62, 60);
+  padding-bottom: 20px;
+}
+footer .col-sm-3{
+  margin-top: 20px;
+}
+footer .col-sm-3 h5{
+  color: azure;
+}
+footer .col-sm-3 ul{
+  list-style: none;
+}
+footer .col-sm-3 li a{
+  text-decoration: none;
+  color: rgba(244, 247, 250, 0.527);
+  margin-top: 5px;
+}
+#chungchi img{
+  width: 130px;
+  height: 50px;
+}
+hr{
+  color: grey;
+}
+.hidden{
+  display: none;
+}
+#ds-login{
+    border: solid 1px rgba(0, 0, 255, 0.298);
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin-top: -500px;
+    justify-content: center;
+    margin-left: 200px;
+}
+#col-4-login {
+  text-align: center;
+  color: aliceblue;
+  padding-top: 60px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+#col-4-login button{
+  border-radius: 10px;
+  margin-top: 15px;
+}
+#col-4-login button.fb{
+  background-color: #007bffa9;
+}
+#col-4-login button.gg{
+  background-color: rgba(248, 70, 5, 0.551);
+}
+#col-8-login #inside{
+  text-align: center;
+  margin-top: 50px;
+}
+#col-8-login #inside a.fg-pw{
+  float: right;
+  margin-top: 20px;
+}
+#col-8-login #inside input{
+  border: none;
+  border-bottom: solid 1px black;
+  outline: none;
+  width: 250px;
+  margin-top: 30px;
+  background-color: aliceblue;
+}
+#col-8-login #inside button{
+  border-radius: 10px;
+  margin-top: 20px;
+}
+#col-8-login #inside button.dn-button{
+  float: left;
+}
+#col-8-login #inside button.dk-button{
+  margin-top: 70px;
+}
+#footer-login{
+  margin-top: 0px;
+}
+/* register */
+#register-form{
+margin-top: -500px;
+margin-left: 220px;
+
+}
+#rg-form{
+  /* margin: 0 auto; */
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: solid 1px rgba(0, 0, 255, 0.298);
+  padding: 20px;
+  margin-top: -200px;
+}
+#register-form h3{
+  text-align: center;
+}
+#register-form h6{
+  margin-top: 10px;
+}
+#register-form input{
+  width: 300px;
+  margin-left: 20px;
+}
+#register-form .col-6{
+  text-align: center;
+}
+#register-form .col-6 button{
+  border-radius: 10px;
+}
+#register-form .col-6 button.fb{
+  background-color: #007bffa9;
+}
+#register-form .col-6 button.gg{
+  background-color: rgba(248, 70, 5, 0.551);}
+
+/*card*/
+#nav-tabContent{
+  margin-top: 10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.pro-img1{
+  margin-top: 10px;
+}
+.modal-body img{
+  max-width: 100%;
+}
+/* */
+#cart-item{
+  margin: 20px;
+}
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.cart-item img {
+  max-width: 100px;
+  margin-right: 10px;
+}
+
+.item-details {
+  flex-grow: 1;
+}
+
+.item-name {
+  font-size: 18px;
+  margin: 0;
+}
+
+.item-price {
+  font-size: 16px;
+  margin: 0;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  float: right;
+}
+
+.quantity-input {
+  width: 40px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.cart-total {
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.item-total {
+  font-size: 18px;
+  margin: 0;
+}
+.quantity button{
+  border-radius: 5px;
+}
+.decrement{
+  width: 25px;
+}
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Đảm bảo hình ảnh căn giữa theo chiều cao */
+}
+span {
+  color: red;
+}
+
+input.ng-invalid {
+  border: 1px solid red;
+
+}

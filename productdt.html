@@ -1,0 +1,79 @@
+
+        <div class="container" style="background-color: rgba(220, 220, 220, 0.038);" 
+            <div class="row">
+                <h1 style="text-align: center; color: rgba(0, 174, 255, 0.682);">{{detailPro.title}}</h1>
+                <i class="bi bi-share"></i>
+                <p><i class="bi bi-geo-alt"></i> {{detailPro.location}}</p>
+                <p><i class="bi bi-clock"></i> Mở | Thứ, 8:00-17:00 </p>
+                <div class="row">
+                    <div class="col-6" style="margin-bottom: 20px;">
+                        <img src="{{detailPro.img}}" alt="" style="max-width: 78%; margin-left: 20px; border-radius: 5px;">
+                    </div>
+                    <div class="col-6">
+                        <div class="row row-cols-2" style="margin-bottom: 10px; margin-top: 15px;">
+                                <img src="IMG/pro-2.webp" alt="" >
+                                <img src="IMG/pro-3.webp" alt="">
+                                <img src="IMG/pro-4.webp" alt="" class="pro-img1">
+                                <img src="IMG/pro-5.webp" alt="" class="pro-img1">
+                          </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div>
+                            <h5><i class="bi bi-question-circle"></i> Bạn sẽ trải nghiệm</h5>
+                                <ul>
+                                    {{detailPro.detail}}
+                                </ul>
+                            <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" style="margin-bottom: 10px;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                     Đọc thêm
+                </button>
+  
+                <!-- Modal -->
+                <div class="modal fade"  id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Trải nghiệm của bạn</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <ul>
+                                {{detailPro.detail}}
+                            </ul>
+                            <img src="IMG/modal-pro-1.webp" alt="">
+                            <br>
+                            <img src="IMG/modal-pro-2.webp" alt="">
+                            <br>
+                            <img src="IMG/modal-pro-3.webp" alt="">
+                            <br>
+                            <img src="IMG/modal-pro-4.webp" alt="">
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Đặt vé ngay</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <h5>Câu hỏi thường gặp</h5>
+                        <a href="#">Giá vé Sun World Bà Nà Hill Đà Nẵng bao nhiêu?</a><br>
+                        <a href="#">Vị trí chính xác của Bà Nà Hill?</a>
+                        <h5>Thông tin chung</h5>
+                        <div class="row">
+                            <div>
+                                <p>{{detailPro.price}}</p>
+                                <p>Địa chỉ: {{detailPro.location}}</p>
+                                <p>Danh mục: Điểm tham quan</p>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary" ng-click="addCart(detailPro)">Thêm vào giỏ hàng</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>

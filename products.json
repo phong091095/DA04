@@ -1,0 +1,186 @@
+[
+        {
+            "id": "1",
+            "title":"Vé quần thể di tích cố đô Huế",
+            "price":"900000",
+            "img": "IMG/t-01.webp",
+            "detail":"Đến Cố đô Huế trên xích lô truyền thống - tìm hiểu về cố đô cuối cùng của Việt Nam. Cố đô Huế được xây dựng vào giữa thế kỷ 19 - đầu thế kỷ 20 và được UNESCO công nhận là Di sản văn hóa thế giới. Tham quan Lăng Khải Định - một trong những lăng mộ đẹp nhất ở Huế với phong cách kiến trúc giao thoa giữa Việt Nam và phương Tây. Tham quan Lăng Minh Mạng - một trong những công trình hoành tráng nhất của các Hoàng đế dưới triều Nguyễn.",
+            "location" : "Huế , Việt Nam",
+            "category": "DN-HA",
+            "quantity" : "0"
+        },
+        {
+            "id": "2",
+            "title":"Vé show ký ức Hội An",
+            "price":"350000",
+            "img": "IMG/t-02.webp",
+            "detail": "Thưởng thức buổi biểu diễn nghệ thuật thị giác ngoài trời kéo dài 1 giờ tập trung vào lịch sử, văn hóa và bản sắc phong phú của Hội An.Tham gia hành trình đầy cảm xúc đến Hội An 400 năm trước thông qua sự hòa quyện tuyệt vời giữa âm nhạc, ánh sáng, nghệ thuật thị giác và biểu diễn. Nâng cao trải nghiệm Hội An của bạn với các hoạt động bổ sung trước và sau buổi biểu diễn, bao gồm du thuyền ngắm cảnh dọc sông Hoài, đi thuyền thúng ly kỳ và các buổi biểu diễn nhỏ. Thưởng thức các món ăn nhẹ và bữa ăn truyền thống ngon miệng có sẵn tại Công viên Ấn tượng Hội An nơi chương trình diễn ra.",
+            "location": "Hội An, Việt Nam",
+            "category": "DN-HA",
+            "quantity" : "0"
+
+        },
+        {
+            "id": "3",
+            "title":"Vé Sun World Bà Nà Hill Đà Nẵng",
+            "price":"199000",
+            "img": "IMG/t-03.webp",
+            "detail": "",
+            "location": "Đà Nẵng, Việt Nam",
+            "category": "DN-HA",
+            "quantity" : "0"
+
+        },
+        {
+            "id": "4",
+            "title":"Tour khám phá Bà Nà Hill - 1 Ngày",
+            "price":"989000",
+            "img": "IMG/t-04.webp",
+            "detail": "",
+            "location": "Đà Nẵng, Việt Nam",
+            "category": "DN-HA",
+            "quantity" : "0"
+
+        },
+        {
+            "id": "5",
+            "title":"Vé VinWonders Nha Trang",
+            "price":"515000",
+            "img": "IMG/t-05.webp",
+            "detail": "",
+            "location": "Nha Trang, Việt Nam",
+            "category": "NT-PQ",
+            "quantity" : "0"
+
+        },{
+            "id": "6",
+            "title":"Vé VinWonders Phú Quốc",
+            "price":"735000",
+            "img": "IMG/t-06.webp",
+            "category": "NT-PQ",
+            "quantity" : "0"
+
+        },{
+            "id": "7",
+            "title":"Vé Sun World Hòn Thơm",
+            "price":"789000",
+            "img": "IMG/t-07.webp",
+            "category": "NT-PQ",
+            "quantity" : "0"
+
+        },{
+            "id": "8",
+            "title":"Tour Mũi Né - 1 Ngày",
+            "price":"535000",
+            "img": "IMG/t-08.webp",
+            "category": "NT-PQ",
+            "quantity" : "0"
+
+        },
+        {
+            "id": "9",
+            "title":"Sun World Bà Đen",
+            "price":"234.567",
+            "img": "IMG/t-09.webp",
+            "category": "SG-N",
+            "quantity" : "0"
+
+        },
+        {
+            "id": "10",
+            "title":"Địa đạo Củ Chi",
+            "price":"234.567",
+            "img": "IMG/t-10.webp",
+            "category": "SG-N",
+            "quantity" : "0"
+
+        },
+        {
+            "id": "11",
+            "title":"Khám phá Bến Tre",
+            "price":"234.567",
+            "img": "IMG/t-11.webp",
+            "category": "SG-N",
+            "quantity" : "0"
+
+        },
+        {
+            "id": "12",
+            "title":"Vé xe buýt Sài Gòn",
+            "price":"234.567",
+            "img": "IMG/t-12.webp",
+            "category": "SG-N",
+            "quantity" : "0"
+
+        },
+        {
+            "id": "13",
+            "title":"Vé show tinh hoa Bắc Bộ",
+            "price":"234.567",
+            "img": "IMG/t-13.webp",
+            "category": "MB",
+            "quantity" : "0"
+
+        },
+        {
+            "id": "14",
+            "title":"Vé khu vui chơi VinKE",
+            "price":"234.567",
+            "img": "IMG/t-14.webp",
+            "category": "MB",
+            "quantity" : "0"
+
+        },
+        {
+            "id": "15",
+            "title":"Sun World Fansipan - Sapa",
+            "price":"234.567",
+            "img": "IMG/t-15.webp",
+            "category": "MB",
+            "quantity" : "0"
+
+        },
+        {
+            "id": "16",
+            "title":"Du thuyền vịnh Hạ Long",
+            "price":"234.567",
+            "img": "IMG/t-16.webp",
+            "category": "MB",
+            "quantity" : "0"
+
+        },
+        {
+            "id": "17",
+            "title":"Bangkok + Pattaya - Thái Lan 5D4N",
+            "price":"234.567",
+            "img": "IMG/t-17.webp",
+            "category": "QT"
+        },
+        {
+            "id": "18",
+            "title":"Tour Singapore và Malaysia",
+            "price":"234.567",
+            "img": "IMG/t-18.webp",
+            "category": "QT",
+            "quantity" : "0"
+
+        },
+        {
+            "id": "19",
+            "title":"Tour Trung Quốc trọn gói",
+            "price":"234.567",
+            "img": "IMG/t-19.webp",
+            "category": "QT",
+            "quantity" : "0"
+
+        },{
+            "id": "20",
+            "title":"Universal Studio Singapore",
+            "price":"234.567",
+            "img": "IMG/t-20.webp",
+            "category": "QT",
+            "quantity" : "0"
+
+        }
+    ]
+    

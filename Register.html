@@ -1,0 +1,31 @@
+
+    <div class="row col-8" ng-app1="myapp1">
+        <form id="register-form" ng-controller1="myctrl1" name="rgform">
+            <div class="row" id="rg-form">
+                <div class="col-6">
+                    <h6>Họ và tên</h6>
+                    <input type="text" name="inputName" ng-model="fullname" placeholder="Trần Văn A"  required><br>
+                    <span ng-hide="rgform.inputName.$valid">Tên không hợp lệ</span><br>
+                    <h6>Email</h6>
+                    <input type="text" name="email" ng-model="email" placeholder="tranvana@gmail.com"  required><br>
+                    <span ng-hide="rgform.email.$valid">Email trống</span><br>
+                    <h6>Số điện thoại</h6>
+                    <input type="phone" name="phone" ng-model="phone" placeholder="0584947737" required><br>
+                    <span ng-hide="rgform.phone.$valid">Số điện thoại không hợp lệ</span><br>
+                    <h6>Mật khẩu</h6>
+                    <input type="password" name="psw" ng-model="password" required><br>
+                    <span ng-hide="rgform.psw.$valid">Mật khẩu trống</span><br>
+                    <h6>Nhập lại mật khẩu</h6>
+                    <input type="password" name="psw1" ng-model="password2" required><br>
+                    <span ng-hide="rgform.psw1.$valid">Mật khẩu trống</span><br>
+                </div>
+                <div class="col-6" style="margin-top: 50px;">
+                    <button type="submit">Đăng ký</button>
+                    <hr>
+                    <p>Hoặc đăng nhập với</p>
+                    <button type="button" class="fb"><i class="bi bi-facebook"></i> Facebook</button>
+                    <button type="button" class="gg"><i class="bi bi-google"></i> Google</button>
+                </div>              
+            </div>
+        </form>
+           </div>
